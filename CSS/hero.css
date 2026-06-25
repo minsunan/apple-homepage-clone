@@ -1,0 +1,51 @@
+.hero {
+  background-image: url("../images/hero_iphone_17_pro__background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 580px;
+}
+.tile-content {
+  padding-top: 40px;
+}
+.heroMainTitle {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 55px;
+  font-family: "Inter", sans-serif;
+}
+.heroSubTitle {
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+.heroBtn {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.LearnMoreBtn {
+  background-color: #0071e3;
+  color: white;
+  border: 0px solid #0071e3;
+  border-radius: 24px;
+  width: 130px;
+  height: 46px;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.BuyBtn {
+  background-color: black;
+  color: #0071e3;
+  border: 1px solid #0071e3;
+  border-radius: 24px;
+  width: 77px;
+  height: 46px;
+  font-size: 16px;
+  display: inline-block;
+}
