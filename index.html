@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="CSS/header.css" />
     <link rel="stylesheet" href="CSS/hero.css" />
+    <link rel="stylesheet" href="CSS/grid.css" />
   </head>
   <body>
     <header>
@@ -46,11 +47,16 @@
         </ul>
       </nav>
     </header>
-    <section class="hero">
+    <section
+      class="hero"
+      style="
+        background-image: url(&quot;images/hero_iphone_17_pro__background.jpg&quot;);
+      "
+    >
       <div class="tile-content">
         <div class="tile-wrapper">
-          <h2 class="heroMainTitle">iPhone 17 Pro</h2>
-          <p class="heroSubTitle">All out Pro.</p>
+          <h2 class="heroMainTitle" style="color: white">iPhone 17 Pro</h2>
+          <p class="heroSubTitle" style="color: white">All out Pro.</p>
         </div>
         <div class="heroBtn">
           <button class="LearnMoreBtn">Learn more</button>
@@ -58,11 +64,17 @@
         </div>
       </div>
     </section>
-    <section class="hero2">
+
+    <section
+      class="hero"
+      style="
+        background-image: url(&quot;images/hero_macbook_air_background.jpg&quot;);
+      "
+    >
       <div class="tile-content">
         <div class="tile-wrapper">
-          <h2 class="heroMainTitle2">MacBook Air</h2>
-          <p class="heroSubTitle2">Now supercharged by M5.</p>
+          <h2 class="heroMainTitle">MacBook Air</h2>
+          <p class="heroSubTitle">Now supercharged by M5.</p>
         </div>
         <div class="heroBtn">
           <button class="LearnMoreBtn">Learn more</button>
@@ -70,19 +82,29 @@
         </div>
       </div>
     </section>
-    <section class="hero3">
+
+    <section
+      class="hero"
+      style="
+        background-image: url(&quot;images/hero_iphone_17__background.jpg&quot;);
+      "
+    >
       <div class="tile-content">
         <div class="tile-wrapper">
-          <h2 class="heroMainTitle2">iPhone 17</h2>
-          <p class="heroSubTitle2">Magichromatic.</p>
+          <h2 class="heroMainTitle">iPhone 17</h2>
+          <p class="heroSubTitle">Magichromatic.</p>
         </div>
         <div class="heroBtn">
           <button class="LearnMoreBtn">Learn more</button>
           <button class="BuyBtn">Buy</button>
         </div>
       </div>
+    </section>
+    <section class="grid">
+      <div></div>
     </section>
     <script src="JS/header.js"></script>
     <script src="JS/hero.js"></script>
+    <script src="JS/grid.js"></script>
   </body>
 </html>
