@@ -5,6 +5,22 @@
   background-repeat: no-repeat;
   height: 580px;
 }
+.hero2 {
+  background-image: url("../images/hero_macbook_air_background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 580px;
+  margin-top: 13px;
+}
+.hero3 {
+  background-image: url("../images/hero_iphone_17__background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 580px;
+  margin-top: 13px;
+}
 .tile-content {
   padding-top: 40px;
 }
@@ -24,6 +40,23 @@
   font-family: "Inter", sans-serif;
   font-weight: normal;
 }
+.heroMainTitle2 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  font-size: 55px;
+  font-family: "Inter", sans-serif;
+}
+.heroSubTitle2 {
+  color: black;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+}
+
 .heroBtn {
   text-align: center;
   font-family: "Inter", sans-serif;
@@ -40,7 +73,7 @@
   margin-right: 15px;
 }
 .BuyBtn {
-  background-color: black;
+  background-color: transparent;
   color: #0071e3;
   border: 1px solid #0071e3;
   border-radius: 24px;
