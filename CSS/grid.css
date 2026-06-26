@@ -1,0 +1,110 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 0 8px;
+}
+.grid-item {
+  height: 580px;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+.grid-wrapper {
+  text-align: center;
+}
+/* MacBook Pro만 포함 */
+.gridMainTitle {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.gridSubTitle {
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+/* iPadAir */
+.girdMainTitle_iPadAir {
+  width: 150px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: -15px;
+}
+.gridSubTitle_iPadAir {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+/* AirPod Pro */
+.gridMainTitle_AirPodPro {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.gridSubTitle_AirPodPro {
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* Watch */
+.girdMainTitle_Watch {
+  width: 350px;
+  margin-top: 50px;
+  height: 55px;
+}
+.gridSubtitle_Watch {
+  font-size: 20px;
+  margin-top: -12px;
+  margin-bottom: 13px;
+}
+
+/* 버튼 */
+.grid_LearnMoreBtn {
+  background-color: #0071e3;
+  color: white;
+  border: 0px solid #0071e3;
+  border-radius: 24px;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.grid_BuyBtn {
+  background-color: transparent;
+  color: #0071e3;
+  border: 1px solid #0071e3;
+  border-radius: 24px;
+  width: 74px;
+  height: 40px;
+  font-size: 14px;
+  display: inline-block;
+}
+.grid_LearnMoreBtn_AirPodPro {
+  background-color: #ffffff;
+  color: black;
+  border: 0px solid #ffffff;
+  border-radius: 24px;
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 15px;
+}
+.grid_BuyBtn_AirPodPro {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 24px;
+  width: 74px;
+  height: 40px;
+  font-size: 14px;
+  display: inline-block;
+}
+.gridBtn-contatiner {
+  margin-bottom: 51px;
+}
