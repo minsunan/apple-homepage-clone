@@ -29,3 +29,18 @@ header {
   width: 14px;
   height: 14px;
 }
+/* store menu */
+.store-menu {
+  position: relative; /*기준점*/
+}
+/* sub menu */
+.sub-menu {
+  display: none;
+  position: absolute; /*기준점으로부터*/
+  top: 44px; /*헤더 높이만큼 아래로(수정 필요)*/
+  left: 0;
+  color: #ffffff;
+}
+.sub-menu ul {
+  display: block;
+}
