@@ -2,7 +2,7 @@ const storeMenu = document.querySelector(".store-menu");
 
 storeMenu.addEventListener("mouseenter", function () {
   const subMenu = storeMenu.querySelector(".sub-menu");
-  subMenu.style.display = "block";
+  subMenu.style.display = "flex";
 });
 
 storeMenu.addEventListener("mouseleave", function () {
