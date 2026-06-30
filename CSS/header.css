@@ -17,6 +17,7 @@ nav a {
   color: #ffffff;
 }
 header {
+  position: relative; /*기준점*/
   background-color: #161617;
   position: sticky;
   top: 0;
@@ -31,7 +32,7 @@ header {
 }
 /* store menu */
 .store-menu {
-  position: relative; /*기준점*/
+  /* position: relative; 기준점 */
 }
 /* sub menu */
 .sub-menu {
@@ -40,7 +41,20 @@ header {
   top: 44px; /*헤더 높이만큼 아래로(수정 필요)*/
   left: 0;
   color: #ffffff;
+  background-color: black;
+  width: 100vw;
+  height: 490px;
+  text-align: left;
+  padding-left: 265px;
+}
+.sub-menu-items p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #868483;
 }
 .sub-menu ul {
   display: block;
+  padding-left: 0px;
+  font-size: 23px;
+  font-weight: 500;
 }
